@@ -14,3 +14,11 @@
 ```
 
 라고 선언한 순서에 대해 우선순위를 부여한다고 쓰여져있지만, `with-url.html`을 실행해보면 url이 뒤에 있어도 우선하여 실행되는 것을 볼 수 있다.
+
+---
+
+- 설치된 PC 내에 서체를 우클릭 후, 복사
+- ex. `file:///Users/a202311007/Library/Fonts/NotoSansKR-Regular.ttf#postscript-name=NotoSansKR-Regular`
+- 복사된 내용에서 이름만 분리 후, 사용 `NotoSansKR-Regular`
+
+이렇게 하면 `local`이 우선순위를 받았다.
